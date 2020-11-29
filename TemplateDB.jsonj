@@ -1,0 +1,50 @@
+{
+  "TableList": [
+    "Users"
+  ],
+  "Tables": {
+    "Users": {
+      "Cols": [
+        {
+          "Name": "ID",
+          "DataType": "int",
+          "Definitions": {
+            "AutoIncrement": 0,
+            "PrimaryKey": {
+              "SortBy": "ASC"
+            },
+            "Unique": {},
+            "NotNull": {}
+          }
+        },
+        {
+          "Name": "User",
+          "DataType": "str",
+          "Definitions": {
+            "Unique": {},
+            "NotNull": {}
+          }
+        },
+        {
+          "Name": "Pass",
+          "DataType": "str",
+          "Definitions": {
+            "NotNull": {}
+          }
+        }
+      ],
+      "Rows": [
+        [
+          0,
+          "Samet195",
+          "abc123"
+        ],
+        [
+          1,
+          "root",
+          "pass"
+        ]
+      ]
+    }
+  }
+}
