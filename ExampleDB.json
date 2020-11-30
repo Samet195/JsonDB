@@ -4,9 +4,8 @@
   ],
   "Tables": {
     "Users": {
-      "Cols": [
-        {
-          "Name": "ID",
+      "Cols": {
+        "ID":{
           "DataType": "int",
           "Definitions": {
             "AutoIncrement": 0,
@@ -17,22 +16,20 @@
             "NotNull": {}
           }
         },
-        {
-          "Name": "User",
+        "User":{
           "DataType": "str",
           "Definitions": {
             "Unique": {},
             "NotNull": {}
           }
         },
-        {
-          "Name": "Pass",
+        "Pass":{
           "DataType": "str",
           "Definitions": {
             "NotNull": {}
           }
         }
-      ],
+      },
       "Rows": [
         [
           0,
@@ -42,6 +39,11 @@
         [
           1,
           "root",
+          "pass"
+        ],
+        [
+          2,
+          "admin",
           "pass"
         ]
       ]
