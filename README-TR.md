@@ -1,6 +1,6 @@
 # JsonDB
 
-[EN](/JsonDB/) | TR
+[EN](../JsonDB/) | TR
 
 "*SQLite'ta, JSON Formatında Alternatif!*"
 
