@@ -8,7 +8,7 @@ JsonDB
 <br />
 
 Todos:
-- [ ] [Adapte SQLite3 "Select" Command.](https://www.sqlite.org/images/syntax/select-stmt.gif)
+- [ ] [Adapt SQLite3 "Select" Command.](https://www.sqlite.org/images/syntax/select-stmt.gif)
   - [x] Select all datas.
   - [x] Select by column.
   - [x] Select by the `where` parameter.
