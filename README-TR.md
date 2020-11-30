@@ -1,6 +1,6 @@
 # JsonDB
 
-[EN](README.md) | TR
+[EN](/) | TR
 
 "*SQLite'ta, JSON Formatında Alternatif!*"
 
