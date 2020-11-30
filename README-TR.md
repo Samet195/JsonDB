@@ -9,7 +9,7 @@
 <br />
 
 Yapılacaklar:
-- [ ] [SQLite "Select" Komutunu Uyarla.](https://www.sqlite.org/images/syntax/select-stmt.gif)
+- [ ] [SQLite "Select" Komutunu Uyarla:](https://www.sqlite.org/images/syntax/select-stmt.gif)
   - [x] Tüm verileri seç.
   - [x] Sütuna göre seç.
   - [x] `where` Parametresine göre seç.
