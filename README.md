@@ -1,5 +1,5 @@
-JsonDB
-======
+<h1>JsonDB</h1>
+EN | [TR](README-TR.md)
 
 "*An alternative to SQLite in JSON Format!*"
 
