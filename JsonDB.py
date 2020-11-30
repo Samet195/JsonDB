@@ -11,8 +11,8 @@ class JsonDB:
 
   def GetCols(self,table):
     cols=[]
-    for col0 in self.DB["Tables"][table]["Cols"]:
-      cols.append(col0["Name"])
+    for col in self.DB["Tables"][table]["Cols"]:
+      cols.append(col)
     return cols
 
   def Select(self,table,col=None,where=None):
@@ -27,9 +27,15 @@ class JsonDB:
       for row in self.DB["Tables"][table]["Rows"]:
         result.append(row[col])
 
-    #elif col == None and where != None:
-    #col = self.DB["Tables"][table]["cols"].index(col)
-      #for row in self.DB["Tables"][table]["rows"]:
-        #result.append(row[col])
+    elif col == None and where != None:
+      cols = []; rows = []
+      for col in self.DB["Tables"][table]["Cols"]:
+        cols.append(col)
+
+      i = cols.index(list(where.keys())[0])
+
+      for row in self.DB["Tables"][table]["Rows"]:
+        if row[i] == list(where.values())[0]:
+          result.append(row)
 
     return result
