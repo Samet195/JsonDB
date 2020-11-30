@@ -8,6 +8,8 @@ print(db.GetCols("Users"))
 
 print(db.Select("Users"))
 
-print(db.Select("Users","User"))
+print(db.Select("Users",col="User"))
+
+print(db.Select("Users",where={"ID":0}))
 
 input("\n--Enter_to_Continue--")
