@@ -12,3 +12,4 @@ Todos:
   - [x] Select all data.
   - [x] Select by column.
   - [x] Select by the `where` parameter.
+  - [ ] Select by column and the `where` parameter.
