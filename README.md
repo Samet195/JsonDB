@@ -11,4 +11,4 @@ Todos:
 - [ ] [Adapt SQLite3 "Select" Command.](https://www.sqlite.org/images/syntax/select-stmt.gif)
   - [x] Select all data.
   - [x] Select by column.
-  - [x] Select by `where` parameter.
+  - [x] Select by the `where` parameter.
