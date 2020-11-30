@@ -8,4 +8,4 @@ JsonDB
 <br />
 
 Todos:
-- [ ] [Adapt SQLite3 "Select" Command](https://www.sqlite.org/images/syntax/select-stmt.gif)
+- [ ] [Adapt SQLite3 "Select" Command.](https://www.sqlite.org/images/syntax/select-stmt.gif)
