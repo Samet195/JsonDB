@@ -5,4 +5,5 @@ JsonDB
 
 > This project is still under development.
 
-Todo: https://www.sqlite.org/images/syntax/select-stmt.gif
+Todo:
+- [ ] https://www.sqlite.org/images/syntax/select-stmt.gif
