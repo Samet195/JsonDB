@@ -1,6 +1,6 @@
 # JsonDB
 
-EN | [TR](README-TR.md) | [Changelog](Change.log)
+EN | [TR](README-TR.md) | <a href="Change.log" style="text-align:right">Change.log</a>
 
 "*An alternative to SQLite in JSON Format!*"
 
