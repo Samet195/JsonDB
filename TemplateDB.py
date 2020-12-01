@@ -1,7 +1,7 @@
-{
+Template = {
   "TableList": [],
   "Tables": {
-    "{table}": {
+    table: {
       "Cols": [],
       "Rows": []
     }
