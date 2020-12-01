@@ -1,1 +1,2 @@
-[EN](../../) | [TR](../../READNE-TR.md) | ChangeLog
+# ChangeLog
+[EN](../../) | [TR](../../README-TR.md) | ChangeLog
