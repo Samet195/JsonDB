@@ -23,12 +23,9 @@ class JsonDB:
         result.append(tuple(row))
 
     elif col != None and where == None:
-      pre_result = []
       col = self.GetCols(table).index(col)
       for row in self.DB["Tables"][table]["Rows"]:
-        pre_result.append(row[col])
-      
-      result.append(tuple(pre_result))
+        result.append(row[col])
 
     elif col == None and where != None:
       cols = []; rows = []
