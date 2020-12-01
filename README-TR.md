@@ -1,6 +1,6 @@
 # JsonDB
 
-[EN](../../) | TR | [ChangeLog](ChangeLog.md)
+[EN](../../) | TR | [ChangeLog](CHANGELOG.md)
 
 "*SQLite'ta, JSON Formatında Alternatif!*"
 
