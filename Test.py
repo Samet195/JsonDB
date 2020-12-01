@@ -8,8 +8,12 @@ print(db.GetCols("Users"))
 
 print(db.Select("Users"))
 
+print(db.Select("Users",col="ID"))
+
 print(db.Select("Users",col="User"))
 
 print(db.Select("Users",where={"ID":0}))
+
+print(db.Select("Users",where={"Pass":"pass"}))
 
 input("\n--Enter_to_Continue--")
