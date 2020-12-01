@@ -20,12 +20,15 @@ class JsonDB:
 
     if col == None and where == None:
       for row in self.DB["Tables"][table]["Rows"]:
-        result.append(row)
+        result.append(tuple(row))
 
     elif col != None and where == None:
+      pre_result = []
       col = self.GetCols(table).index(col)
       for row in self.DB["Tables"][table]["Rows"]:
-        result.append(row[col])
+        pre_result.append(row[col])
+      
+      result.append(tuple(pre_result))
 
     elif col == None and where != None:
       cols = []; rows = []
@@ -36,6 +39,6 @@ class JsonDB:
 
       for row in self.DB["Tables"][table]["Rows"]:
         if row[i] == list(where.values())[0]:
-          result.append(row)
+          result.append(tuple(row))
 
     return result
