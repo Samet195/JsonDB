@@ -14,3 +14,18 @@ Todos:
   - [x] Select by column.
   - [x] Select by the `where` parameter.
   - [ ] Select by column and the `where` parameter.
+
+## How to use
+Import the Module and init the class:
+```Python
+from JsonDB import JsonDB
+db = JsonDB("ExampleDB.json")
+```
+Show the tables:
+```Python
+print(db.show_tables())
+```
+Get the columns:
+```Python
+print(db.get_cols("Users"))
+```
