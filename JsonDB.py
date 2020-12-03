@@ -6,10 +6,10 @@ class JsonDB:
     if path.exists(db) and path.isfile(db):
       self.DB = loads(open(db,"r+",encoding="utf-8").read())
 
-  def showTables(self):
+  def show_tables(self):
     return self.DB["TableList"]
 
-  def getCols(self,table):
+  def get_cols(self,table):
     cols=[]
     for col in self.DB["Tables"][table]["Cols"]:
       cols.append(col)
@@ -23,7 +23,7 @@ class JsonDB:
         result.append(tuple(row))
 
     elif col != None and where == None:
-      col = self.GetCols(table).index(col)
+      col = self.get_cols(table).index(col)
       for row in self.DB["Tables"][table]["Rows"]:
         result.append(row[col])
 
