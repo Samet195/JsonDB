@@ -29,3 +29,15 @@ Get the columns:
 ```Python
 print(db.get_cols("Users"))
 ```
+Selecting the data:
+```Python
+print(db.select("Users"))
+
+print(db.select("Users",col="ID"))
+
+print(db.select("Users",col="User"))
+
+print(db.select("Users",where={"ID":0}))
+
+print(db.select("Users",where={"Pass":"pass"}))
+```
