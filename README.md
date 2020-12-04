@@ -8,7 +8,7 @@ EN | [TR](README-TR.md) | [ChangeLog](CHANGELOG.md)
 
 <br />
 
-Todos:
+### Todos:
 - [ ] [Adapt SQLite "Select" Command:](https://www.sqlite.org/images/syntax/select-stmt.gif)
   - [x] Select all datas.
   - [x] Select by column.
