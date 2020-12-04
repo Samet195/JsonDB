@@ -15,7 +15,7 @@
   - [x] Select by the `where` parameter.
   - [x] Select by column and the `where` parameter.
   - [ ] Add `order_by` parameter to the `select` metod.
-  - [ ] Add `limit` parameter to the `select` metod for too big databases.
+  - [ ] For too big databases, the limit parameter will be added to the select method.
 
 ## How to use
 Import the Module and init the class:
