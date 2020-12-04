@@ -8,7 +8,7 @@
 
 <br />
 
-Yapılacaklar:
+### Yapılacaklar:
 - [ ] [SQLite "Select" Komutunu Uyarla:](https://www.sqlite.org/images/syntax/select-stmt.gif)
   - [x] Tüm verileri seç.
   - [x] Sütuna göre seç.
