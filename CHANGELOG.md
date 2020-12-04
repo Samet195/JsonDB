@@ -1,5 +1,5 @@
 # ChangeLog
-[EN](../../) | [TR](README-TR.md) | ChangeLog
+[EN](../../) | [TR](README-TR.md) | **ChangeLog**
 ```yml
 [2020/12/03]: Added "How to use" on README.md
 ```
