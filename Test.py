@@ -16,4 +16,6 @@ print(db.select("Users",where={"ID":0}))
 
 print(db.select("Users",where={"Pass":"pass"}))
 
+print(db.select("Users",col="User" ,where={"Pass":"pass"}))
+
 input("\n--Enter_to_Continue--")
