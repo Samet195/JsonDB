@@ -6,6 +6,9 @@ class JsonDB:
     if path.exists(db) and path.isfile(db):
       self.DB = loads(open(db,"r+",encoding="utf-8").read())
 
+    elif path.isdir(db):
+      raise Exception("Path is a directory")
+
   def show_tables(self):
     return self.DB["TableList"]
 
@@ -28,14 +31,22 @@ class JsonDB:
         result.append(row[col])
 
     elif col == None and where != None:
-      cols = []; rows = []
-      for col in self.DB["Tables"][table]["Cols"]:
-        cols.append(col)
+      cols = self.get_cols(table)
 
       i = cols.index(list(where.keys())[0])
 
       for row in self.DB["Tables"][table]["Rows"]:
         if row[i] == list(where.values())[0]:
           result.append(tuple(row))
+
+    elif col != None and where != None:
+      cols = self.get_cols(table)
+
+      i = cols.index(list(where.keys())[0])
+      col = cols.index(col)
+
+      for row in self.DB["Tables"][table]["Rows"]:
+        if row[i] == list(where.values())[0]:
+          result.append(row[col])
 
     return result
