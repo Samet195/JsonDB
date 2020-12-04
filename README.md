@@ -13,7 +13,7 @@
   - [x] Select all datas.
   - [x] Select by column.
   - [x] Select by the `where` parameter.
-  - [ ] Select by column and the `where` parameter.
+  - [x] Select by column and the `where` parameter.
 
 ## How to use
 Import the Module and init the class:
@@ -40,4 +40,6 @@ print(db.select("Users",col="User"))
 print(db.select("Users",where={"ID":0}))
 
 print(db.select("Users",where={"Pass":"pass"}))
+
+print(db.select("Users",col="User" ,where={"Pass":"pass"}))
 ```
