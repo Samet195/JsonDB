@@ -14,6 +14,7 @@
   - [x] Sütuna göre seç.
   - [x] `where` Parametresine göre seç.
   - [x] Sütuna ve `where` parametresine göre seç.
+  - [ ] `select` metoduna `order_by` parametresi eklenecek.
 
 ## Nasıl kullanılır
 Modülü içe aktarın ve sınıfı başlatın:
