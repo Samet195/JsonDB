@@ -14,7 +14,7 @@
   - [x] Select by column.
   - [x] Select by the `where` parameter.
   - [x] Select by column and the `where` parameter.
-  - [ ] Add `order_by` parameter to the `select` metod.
+  - [ ] The `order_by` parameter will be added to the `select` method.
   - [ ] For too big databases, the limit parameter will be added to the select method.
 
 ## How to use
