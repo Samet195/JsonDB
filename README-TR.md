@@ -2,7 +2,7 @@
 
 [EN](../../) | TR | [ChangeLog](CHANGELOG.md)
 
-"*SQLite'ta, JSON Formatında Alternatif!*"
+"*SQLite'ta, JSON Formatında bir Alternatif!*"
 
 > Bu proje hala geliştirme aşamasındadır.
 
