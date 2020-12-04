@@ -24,10 +24,12 @@ db = JsonDB("ExampleDB.json")
 Show the tables:
 ```Python
 print(db.show_tables())
+# ['Users']
 ```
 Get the columns:
 ```Python
 print(db.get_cols("Users"))
+# ['ID', 'User', 'Pass']
 ```
 Selecting the data:
 ```Python
