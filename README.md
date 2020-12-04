@@ -14,6 +14,7 @@
   - [x] Select by column.
   - [x] Select by the `where` parameter.
   - [x] Select by column and the `where` parameter.
+  - [ ] Add `order_by` parameter to the select metod
 
 ## How to use
 Import the Module and init the class:
