@@ -24,10 +24,12 @@ db = JsonDB("ExampleDB.json")
 Tabloları göster:
 ```Python
 print(db.show_tables())
+# ['Users']
 ```
 Sütunları alın:
 ```Python
 print(db.get_cols("Users"))
+# ['ID', 'User', 'Pass']
 ```
 Verilerin seçilmesi:
 ```Python
