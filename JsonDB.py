@@ -21,16 +21,16 @@ class JsonDB:
   def select(self,table,col=None,where=None):
     result = []
 
-    if col == None and where == None:
+    if not col and not where:
       for row in self.DB["Tables"][table]["Rows"]:
         result.append(tuple(row))
 
-    elif col != None and where == None:
+    elif col and not where:
       col = self.get_cols(table).index(col)
       for row in self.DB["Tables"][table]["Rows"]:
         result.append(row[col])
 
-    elif col == None and where != None:
+    elif not col and where:
       cols = self.get_cols(table)
 
       i = cols.index(list(where.keys())[0])
@@ -39,7 +39,7 @@ class JsonDB:
         if row[i] == list(where.values())[0]:
           result.append(tuple(row))
 
-    elif col != None and where != None:
+    elif col and where:
       cols = self.get_cols(table)
 
       i = cols.index(list(where.keys())[0])
