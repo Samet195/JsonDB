@@ -4,7 +4,7 @@
 
 "*SQLite'ta, JSON Formatında bir Alternatif!*"
 
-> Bu proje hala geliştirme aşamasındadır.
+>! Bu proje hala geliştirme aşamasındadır.
 
 <br />
 
