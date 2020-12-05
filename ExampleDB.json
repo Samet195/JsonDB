@@ -1,51 +1,39 @@
 {
-  "TableList": [
+  "TableList":[
     "Users"
   ],
-  "Tables": {
-    "Users": {
-      "Cols": {
+  "Tables":{
+    "Users":{
+      "Cols":{
         "ID":{
-          "DataType": "int",
-          "Definitions": {
-            "AutoIncrement": 0,
-            "PrimaryKey": {
-              "SortBy": "ASC"
+          "DataType":"int",
+          "Definitions":{
+            "AutoIncrement":0,
+            "PrimaryKey":{
+              "SortBy":"ASC"
             },
-            "Unique": {},
-            "NotNull": {}
+            "Unique":{},
+            "NotNull":{}
           }
         },
         "User":{
-          "DataType": "str",
-          "Definitions": {
-            "Unique": {},
-            "NotNull": {}
+          "DataType":"str",
+          "Definitions":{
+            "Unique":{},
+            "NotNull":{}
           }
         },
         "Pass":{
-          "DataType": "str",
-          "Definitions": {
-            "NotNull": {}
+          "DataType":"str",
+          "Definitions":{
+            "NotNull":{}
           }
         }
       },
-      "Rows": [
-        [
-          0,
-          "Samet195",
-          "abc123"
-        ],
-        [
-          1,
-          "root",
-          "pass"
-        ],
-        [
-          2,
-          "admin",
-          "pass"
-        ]
+      "Rows":[
+        [0,"Samet195","abc123"],
+        [1,"root","pass"],
+        [2,"admin","pass"]
       ]
     }
   }
