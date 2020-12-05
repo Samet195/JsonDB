@@ -6,4 +6,7 @@
 
 [2020/12/04]:
   Added Select by column and the where parameter
+
+[2020/12/05]:
+  The if, else structure in the select metod has been simplified.
 ```
