@@ -5,30 +5,9 @@
   "Tables":{
     "Users":{
       "Cols":{
-        "ID":{
-          "DataType":"int",
-          "Definitions":{
-            "AutoIncrement":0,
-            "PrimaryKey":{
-              "SortBy":"ASC"
-            },
-            "Unique":{},
-            "NotNull":{}
-          }
-        },
-        "User":{
-          "DataType":"str",
-          "Definitions":{
-            "Unique":{},
-            "NotNull":{}
-          }
-        },
-        "Pass":{
-          "DataType":"str",
-          "Definitions":{
-            "NotNull":{}
-          }
-        }
+        "ID":"int",
+        "User":"str",
+        "Pass":"str"
       },
       "Rows":[
         [0,"Samet195","abc123"],
