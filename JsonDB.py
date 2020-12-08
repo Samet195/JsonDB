@@ -18,10 +18,7 @@ class JsonDB:
     return self.DB["TableList"]
 
   def get_cols(self,table):
-    cols=[]
-    for col in self.DB["Tables"][table]["Cols"]:
-      cols.append(col)
-    return cols
+    return [cols for cols in self.DB["Tables"][table]["Cols"]]
 
   def select(self,table,col=None,where=None):
     result = []
