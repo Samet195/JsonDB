@@ -20,7 +20,7 @@
 ## How to use
 Import the Module and init the class:
 ```Python
-from JsonDB import JsonDB
+from jsondb import JsonDB
 db = JsonDB("ExampleDB.json")
 ```
 Show the tables:
