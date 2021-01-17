@@ -1,4 +1,4 @@
-from JsonDB import JsonDB
+from jsondb import JsonDB
 db = JsonDB("ExampleDB.json")
 
 print(db.show_tables())
