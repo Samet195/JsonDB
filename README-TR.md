@@ -20,7 +20,7 @@
 ## Nasıl kullanılır
 Modülü içe aktarın ve sınıfı başlatın:
 ```Python
-from JsonDB import JsonDB
+from jsondb import JsonDB
 db = JsonDB("ExampleDB.json")
 ```
 Tabloları göster:
